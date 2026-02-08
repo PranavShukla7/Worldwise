@@ -12,17 +12,17 @@ export default function Product() {
           alt="person with dog overlooking mountain with sunset"
         />
         <div>
-          <h2>About WorldWide.</h2>
+          <h2>About WorldWise.</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est
-            dicta illum vero culpa cum quaerat architecto sapiente eius non
-            soluta, molestiae nihil laborum, placeat debitis, laboriosam at fuga
-            perspiciatis?
+            WorldWise is a travel diary that helps you keep track of the places
+            you have visited and the experiences you want to remember. Pin
+            cities on the map, add notes and dates, and build a personal history
+            of your journeys over time.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            doloribus libero sunt expedita ratione iusto, magni, id sapiente
-            sequi officiis et.
+            Whether you are planning your next adventure or looking back at past
+            trips, WorldWise gives you a clean, visual way to organize your
+            travel memories and see your story unfold across the globe.
           </p>
         </div>
       </section>
