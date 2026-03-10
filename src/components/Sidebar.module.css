@@ -1,7 +1,11 @@
 .sidebar {
-  flex-basis: 56rem;
-  background-color: var(--color-dark--1);
-  padding: 3rem 5rem 3.5rem 5rem;
+  flex-basis: 54rem;
+  max-width: 54rem;
+  background: rgba(17, 24, 39, 0.85);
+  border: 1px solid rgba(203, 213, 225, 0.12);
+  border-radius: 1.8rem;
+  padding: 3rem 3.2rem 3.2rem;
+  box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.35);
 
   display: flex;
   flex-direction: column;
@@ -15,5 +19,6 @@
 
 .copyright {
   font-size: 1.2rem;
-  color: var(--color-light--1);
+  color: var(--color-light--2);
+  opacity: 0.9;
 }

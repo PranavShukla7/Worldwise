@@ -1,18 +1,21 @@
 .login {
   margin: 2.5rem;
-  padding: 2.5rem 5rem;
-  background-color: var(--color-dark--1);
+  padding: 2.5rem 4rem;
+  background: rgba(17, 24, 39, 0.78);
+  border: 1px solid rgba(203, 213, 225, 0.12);
+  border-radius: 1.8rem;
   min-height: calc(100vh - 5rem);
 }
 
 .form {
-  background-color: var(--color-dark--2);
-  border-radius: 7px;
-  padding: 2rem 3rem;
+  background: rgba(31, 41, 55, 0.8);
+  border-radius: 1.4rem;
+  border: 1px solid rgba(203, 213, 225, 0.12);
+  padding: 2.4rem 2.8rem;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.2rem;
 
   /* Different from other form */
   width: 48rem;
@@ -22,5 +25,5 @@
 .row {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.8rem;
 }

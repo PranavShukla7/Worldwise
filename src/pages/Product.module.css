@@ -1,21 +1,25 @@
 .product {
   margin: 2.5rem;
-  padding: 2.5rem 5rem;
-  background-color: var(--color-dark--1);
+  padding: 2.5rem 4rem;
+  background: rgba(17, 24, 39, 0.78);
+  border: 1px solid rgba(203, 213, 225, 0.12);
+  border-radius: 1.8rem;
   min-height: calc(100vh - 5rem);
 }
 
 .product section {
-  width: clamp(80rem, 80%, 90rem);
+  width: min(100%, 98rem);
   margin: 6rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 7rem;
+  gap: 5rem;
   align-items: center;
 }
 
 .product img {
   width: 100%;
+  border-radius: 1.2rem;
+  box-shadow: 0 1.4rem 3.2rem rgba(0, 0, 0, 0.35);
 }
 
 .product h2 {
@@ -25,8 +29,17 @@
 }
 
 .product p {
-  font-size: 1.6rem;
+  font-size: 1.65rem;
+  color: var(--color-light--1);
   margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+  .product section {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-top: 4rem;
+  }
 }
 
 .product section a {

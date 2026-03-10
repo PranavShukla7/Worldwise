@@ -2,6 +2,9 @@
   flex: 1;
   height: 100%;
   background-color: var(--color-dark--2);
+  border-radius: 1.8rem;
+  border: 1px solid rgba(203, 213, 225, 0.12);
+  overflow: hidden;
   position: relative;
 }
 
@@ -11,9 +14,9 @@
 
 /* Here we want to style classes that are coming from leaflet. So we want CSS Modules to give us the ACTUAL classnames, not to add some random ID to them, because then they won't match the classnames defined inside the map. The solution is to define these classes as GLOBAL */
 :global(.leaflet-popup .leaflet-popup-content-wrapper) {
-  background-color: var(--color-dark--1);
+  background-color: #0f172a;
   color: var(--color-light--2);
-  border-radius: 5px;
+  border-radius: 10px;
   padding-right: 0.6rem;
 }
 
